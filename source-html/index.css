@@ -1,0 +1,23 @@
+/*SearchQuestionsPage, questionResultsTextArea */
+#questionResultsArea{
+font-size: 14px;
+font-weight: normal;
+resize: none;
+overflow-y: scroll;
+height: 100px;
+max-height: 100px;
+}
+
+#ReplyQuestionsArea{
+font-size: 14px;
+font-weight: normal;
+resize: none;
+overflow-y: scroll;
+height: 200px;
+max-height: 200px;
+}
+
+#QuestionsSearch{
+background:blue;
+color:white;
+}

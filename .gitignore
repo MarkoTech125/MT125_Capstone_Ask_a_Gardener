@@ -1,0 +1,21 @@
+# Visual Studio files
+.vs/
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build files
+[Rr]elease/
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+
+# Test files
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet files
+[Pp]ackages/
+*.nupkg

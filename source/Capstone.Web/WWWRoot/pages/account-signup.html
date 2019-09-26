@@ -1,0 +1,41 @@
+﻿<!-- Account signup page -->
+<div data-role="page" id="account-signup-page">
+	<div data-role="header">
+		<h1>Master Gardeners</h1>
+	</div>
+
+	<!-- Page content -->
+	<div data-role="content" class="ui-content" id="account-signup-page-content">
+		<h1>Create an Account</h1>
+
+		<form>
+			<!-- Name-->
+			<label for="account-signup-form-name">Name</label>
+			<input type="text" name="account-signup-form-name"
+				   id="account-signup-form-name" value="" />
+
+			<!-- Password -->
+			<label for="account-signup-form-password">Password</label>
+			<input type="password" name="account-signup-form-password"
+				   id="account-signup-form-password" value="" />
+
+			<!-- Password (repeat) -->
+			<label for="account-signup-form-password-repeat">Password (repeat)</label>
+			<input type="password" name="account-signup-form-password-repeat"
+				   id="account-signup-form-password-repeat" value="" />
+
+			<button type="submit" id="account-signup-form-submit" data-inline="true">
+				Create an Account
+			</button>
+		</form>
+
+		<br />
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<!-- TODO: add something here? -->
+	</div>
+
+	<!-- Page-specific scripts -->
+	<script src="/pages/account-signup.js"></script>
+</div>

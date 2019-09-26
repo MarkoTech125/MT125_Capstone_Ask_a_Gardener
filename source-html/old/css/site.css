@@ -1,0 +1,43 @@
+﻿@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  background-color: gray;
+}
+
+.img-fluid{
+
+   max-width: 70%;
+   
+ }
+
+
+
+.col{
+  background: #333;
+  float: left;
+  color: green;
+  width: 28%;
+  margin: 1%;
+  padding: 1%;
+}
+
+footer{
+  clear: both;
+}
+
+
+
+.darkBG {
+  background: #999;
+}
+
+.darkerBG {
+  background: #667
+}
+
+.darkestBG {
+  background: #333
+}

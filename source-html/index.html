@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="index.css" />
+
+	<!-- jQuery Mobile scripts -->
+	<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- Application scripts -->
+	<script src="scripts/entity.js"></script>
+	<script src="scripts/entityRepository.js"></script>
+	<script src="scripts/authenticate.js"></script>
+	<script src="index.js"></script>
+
+	<title>Capstone</title>
+</head>
+
+<body>
+	<!-- Home page -->
+	<div data-role="page" id="home-page">
+		<div data-role="header">
+			<h1>Master Gardeners</h1>
+		</div>
+
+		<!-- Home page content -->
+		<div data-role="content" class="ui-content" id="home-page-content">
+			<h1>Home</h1>
+			<figure class=figure>
+				<img src="images/masterGardenerLogo.png" class="img-fluid" alt="Responsive gardener image" height="150" width="200">
+			</figure>
+			<p>We are pleased to present our users with this new app. The purpose of this app is to make it easier
+			for the gardening enthiusiasts to ask a gardening-related question to our Brantford Master Gardeners staff.</p>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home-page" data-icon="home">Home</a></li>
+					<li><a href="#question-page" data-icon="grid">Questions</a></li>
+					<li><a href="#account-page" data-icon="gear">Account</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Question page -->
+	<div data-role="page" id="question-page">
+		<!-- Question page header -->
+		<div data-role="header">
+			<h1>Master Gardeners</h1>
+		</div>
+
+		<!-- Question page content -->
+		<div data-role="content" class="ui-content" id="question-page-content">
+			<h1>Questions</h1>
+			<p>Please enter your question here and press the search button. If your question has been asked before, the answers will appear below.</p>
+
+			<!-- Questions -->
+			<ul data-role="listview" data-inset="true" data-filter="true" id="question-page-content-listview"
+				class="ui-listview ui-listview-inset ui-corner-all ui-shadow"></ul>
+
+				<a href="#" id="QuestionsSearch" class="ui-btn ui-btn-inline ui-icon-action ui-btn-icon-left">Search</a>
+
+			<br />
+		</div>
+
+		<!-- Question page footer -->
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home-page" data-icon="home">Home</a></li>
+					<li><a href="#question-page" data-icon="grid">Questions</a></li>
+					<li><a href="#account-page" data-icon="gear">Account</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Question detail page -->
+	<div data-role="page" id="question-detail-page">
+		<!-- Question detail page header -->
+		<div data-role="header">
+			<a href="#" data-icon="back" data-rel="back">Back</a>
+
+			<h1>Master Gardeners</h1>
+		</div>
+
+		<!-- Question detail page content -->
+		<div data-role="content" class="ui-content" id="question-detail-page-content">
+			<h1>Questions</h1>
+
+			<h3 id="question-detail-content">QUESTION_CONTENT</h3>
+			<p id="question-detail-content-extended">QUESTION_CONTENT_EXTENDED</p>
+
+			<!-- Question responses -->
+			<ul data-role="listview" data-inset="true" id="question-detail-page-content-listview"
+				class="ui-listview ui-listview-inset ui-corner-all ui-shadow"></ul>
+		</div>
+	</div>
+
+	<!-- Account page -->
+	<div data-role="page" id="account-page">
+		<div data-role="header">
+			<h1>Master Gardeners</h1>
+		</div>
+
+		<!-- Account page content -->
+		<div data-role="content" class="ui-content" id="account-page-content">
+			<h1>Account</h1>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home-page" data-icon="home">Home</a></li>
+					<li><a href="#question-page" data-icon="grid">Questions</a></li>
+					<li><a href="#account-page" data-icon="gear">Account</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

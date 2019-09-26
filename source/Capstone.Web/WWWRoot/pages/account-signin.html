@@ -1,0 +1,39 @@
+﻿<!-- Account signin page -->
+<div data-role="page" id="account-signin-page">
+	<div data-role="header">
+		<h1>Master Gardeners</h1>
+	</div>
+
+	<!-- Page content -->
+	<div data-role="content" class="ui-content" id="account-signin-page-content">
+		<h1>Sign In</h1>
+
+		<form>
+			<!-- Name -->
+			<label for="account-signin-form-name">Name</label>
+			<input type="text" name="account-signin-form-name"
+				   id="account-signin-form-name" value="" />
+
+			<!-- Password -->
+			<label for="account-signin-form-password">Password</label>
+			<input type="password" name="account-signin-form-password"
+				   id="account-signin-form-password" value="" />
+
+			<button type="submit" id="account-signin-form-submit" data-inline="true">Sign In</button>
+		</form>
+
+		<br />
+
+		<p>
+			Don't have an account?
+			<a href="/pages/account-signup.html">Create one here</a>.
+		</p>
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<!-- TODO: add something here? -->
+	</div>
+
+	<!-- Page-specific scripts -->
+	<script src="/pages/account-signin.js"></script>
+</div>

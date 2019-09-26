@@ -1,0 +1,34 @@
+﻿<!-- Question page -->
+<div data-role="page" id="question-page">
+	<div data-role="header">
+		<h1>Master Gardeners</h1>
+	</div>
+
+	<!-- Page content -->
+	<div data-role="content" class="ui-content" id="question-page-content">
+		<h1>Questions</h1>
+		<p>Please enter your question here and press the search button. If your question has been asked before, the answers will appear below.</p>
+		<ul data-role="listview" data-inset="true" data-filter="true" id="question-page-content-listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+			<!-- -->
+		</ul>
+
+		<p>
+			Don't see your question?
+			<a href="/pages/question-create.html">Ask one here</a>.
+		</p>
+		<br />
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="/pages/home.html" data-icon="home">Home</a></li>
+				<li><a href="/pages/question.html" data-icon="grid">Questions</a></li>
+				<li><a href="/pages/account.html" data-icon="gear">Account</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Page-specific scripts -->
+	<script src="/pages/question.js"></script>
+</div>

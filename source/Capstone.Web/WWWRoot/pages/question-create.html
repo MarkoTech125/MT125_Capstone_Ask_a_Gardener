@@ -1,0 +1,43 @@
+﻿<!-- Question create page -->
+<div data-role="page" id="question-create-page">
+	<div data-role="header">
+		<a href="#" data-icon="back" data-rel="back">Back</a>
+
+		<h1>Master Gardeners</h1>
+	</div>
+
+	<!-- Page content -->
+	<div data-role="content" class="ui-content" id="question-create-page-content">
+		<h1>Post a Question</h1>
+		<p>Please enter your question here and press the submit button. Your question will be submitted to Brantford Master Gardeners.</p>
+
+		<form>
+			<!-- Content -->
+			<label for="question-create-form-content">Content</label>
+			<input type="text" name="question-create-form-content"
+				   id="question-create-form-content" value="" />
+
+			<!-- Content (extended) -->
+			<label for="question-create-form-content-extended">Content (extended)</label>
+			<input type="text" name="question-create-form-content-extended"
+				   id="question-create-form-content-extended" value="" />
+
+			<button type="submit" id="question-create-form-submit" data-inline="true">Submit</button>
+		</form>
+
+		<br />
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="/pages/home.html" data-icon="home">Home</a></li>
+				<li><a href="/pages/question.html" data-icon="grid">Questions</a></li>
+				<li><a href="/pages/account.html" data-icon="gear">Account</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Page-specific scripts -->
+	<script src="/pages/question-create.js"></script>
+</div>
